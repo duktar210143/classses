@@ -1,0 +1,165 @@
+searching:
+------
+1. linear search:
+===========
+also called sequential search-time complexicity=O(n)
+
+2. Binary search
+==========
+-list must be in order(ascending/descending)
+-It works on divide and conquer principle.
+
+working processes:
+
+==========
+list=[2,4,6,8,10,12] search_item=10
+
+min=0
+max=len(l)-1=6-1=5
+
+mid=(min+max)//2==>(0+5)//==>2
+
+first case:search_item==list[mid]: return mid
+
+second case:search_item<list[mid]:max=list[mid]-1
+
+third case: search_item>list[mid]:mid=mid+1 
+
+min = mid+1 =2+1=3
+max=5
+
+mid=(3+5)//2=>4
+First case :search_item = list[mid]:return mid
+
+
+list=[1,2,3,4,5,6,7,8]
+O(1)
+O(logn)
+
+O(n)
+
+linear search==>time complexity ==>O(n)
+binary search==> time complexity ==O(logn)
+
+linear search ->collection must not be in order.
+Binary search-> must be ordererd list.
+
+
+predifined algorithm
+1. Bubble sort
+2. selection sort
+3. insertion sort
+4. merge sort 
+5. Quick sort
+6. shell sort
+ETC
+.....
+
+loop=(O(n))
+nested loop= O(2^n)
+
+
+sorting:
+====
+arranging the data or elements either in ascending or descending order
+
+list =[5,1,3,7,4]
+       0,1,2,3,4
+
+bubble sort:
+--->compare with adjescane element
+1st round: 
+    if list[0]>list[1]:->TRUE->swap-->[1,5,3,7,4]
+    if list[1]>listlist[2]:->TRUE->swao->[1,3,5,7,4]
+    if list[2]>list[3]:->FALSE-> no swap
+    if list[3]>list[4]:->TRUE->swap->[1,3,5,4,7]
+
+2nd round
+    if list[0]>list[1]-->false-->no swap
+    
+    if list[1]>list[2]-->false-->no swap
+    
+    if list[2]>list[3]-->TRUE--> swap->[1,3,4,5,7]
+    
+    if list[3]>list[4]-->false-->no swap
+
+3rd round:
+     if list[0]>list[1]-->false-->no swap
+    
+    if list[1]>list[2]-->false-->no swap
+    
+    if list[2]>list[3]-->FALSE--> no swap
+    
+    if list[3]>list[4]-->false-->no swap
+
+completed:[1,3,4,5,7]
+
+Big-O notation -->worse case
+
+list=[5,4,3,2,1]
+
+list-->input size-->n element
+
+n*n---O(n^2)
+
+Important for your exxams:
+=========
+
+working procwss-> linear search ,binary search, and bubble sort
+time complexity-> linear search, binary search, bubble sort
+
+
+Exam:
+====
+phase test-> MCQ -> 20 question -> 20 matks -->33%(online)-35 minutes
+
+written exam -> 100 marks -> 67%
+
+stack queue --> data structure
+
+stack queue --> Last in first out (LIFO)
+push ->insert in stack
+pop-> taking out or rmoving in stack
+
+Queu:
+order: first in first out
+enque: insert
+deque
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

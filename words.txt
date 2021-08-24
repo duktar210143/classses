@@ -1,0 +1,63 @@
+--hello everyone
+ my name is duktar tamang
+I am a student at softwarica collage batch 30 
+sec A my student ID is 210143
+
+--I made a simple calculator using pycharm
+the code is presented here on the screen
+
+firstly the basics
+what we did here is in line no 1
+ importing evrything from tkinter python library
+then creating a loop  that loops the window until the user exits it using Tk()
+and window.mainloop()
+
+in line no 7 we create a entry system and expand the width
+using grid we shove the  widget 
+column span is used to fill in the three columns that we will built further in the code
+
+
+we will get to everything inside the fuction later
+
+we create 9 button's with different paddings and using grid 
+method to place the buttons into Rows and columns making it as
+similar to real calculator
+
+we also create buttons for arithmetic calculation like add,subtract,multiply,division and eqaual
+we use  lambda to pass parameters in  buttons 
+
+ now on to the functions on def click()
+- we want a number the one which the user clicks save the state
+  and also be able to insert another number.
+- So we store the first value in a variable
+-the concatinating the numbers present in the  screen widget and the new numbers
+
+going onto clear button:
+we just use a function e.delete(0,END) to clear evrything inside the entry widget.
+
+now onto the arithematic functions
+
+we want to click buttons and get different out put based on 
+which operator buttons the user clicks on
+
+for that we first create buttons and use differnt paddings and 
+place it using grid into different 
+
+well here on the def button_add:
+    we first call the first number on the entry widget
+    then we create a global variable 
+    assighning the global number an intiger value which is a global and can be used outside the functuion
+    
+Then basically using another global variable math 
+    we check the  should be provided as output  when clicking on which button by 
+    using a simple if else statement and providing the necessary codes
+   for add sub mul and division
+
+
+
+
+
+
+
+
+

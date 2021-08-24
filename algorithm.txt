@@ -1,0 +1,84 @@
+time complexity measure:
+1. Experimentel method
+2. Analytical method
+
+Experimental method:
+
+-implement the algorithm into the code and execute it
+-hardware and software
+-cannot consider all inputs
+-cannot measure exact running time
+
+Analytical method:
+-measure running time based on input size . not necessar
+y to run the program
+
+
+conider reules
+1. if you have assignment,arithmetic,relational,logical operator, it will take 1 unit of time
+2. if you have a return statement, it will take 1 unit of time
+3. avoid the constant term
+4. avoid the coeffiecient
+
+bestv  case average case and worst case
+
+analytical method measure the rate of growth of time taken by an algorithm depending on input size
+
+--Asympototic notation:
+
+1. omega notation: best case
+2. Thets notation :avarage case: Tight  bound
+3. Big-O notation :worst case: upperbound
+
+
+
+Big -O notation : mathematical representation or mathematical notation that describes the limiting of an 
+algorithnm when the input tends towards a particular value of infinity.
+
+
+predefined notation :order
+
+--------
+-O(1)--constant term
+-O(logn)--logarithm time complexicity
+-O(n)--linear time complexicity
+-O(nlogn)-linear logarithm time complexity
+-O(n^2) ,O(n^3)--quadratica time complexicity
+O(2^n),)(3^n)-exponential
+
+
+what is an algorithm ?
+
+why to write algorithm before wrieting a code?
+
+Time complexicity measure method:
+
+experimental method
+analytical ,ethod
+
+Big-O notation
+
+
+search algorithm
+linear,binary
+sorting algo:
+Bubble sort,merge,quick sort
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

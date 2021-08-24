@@ -1,0 +1,12 @@
+dns--syatem naming format
+
+
+transmission medium:
+
+1
+ guided(wired)
+2
+ unguided(unwired)
+
+
+

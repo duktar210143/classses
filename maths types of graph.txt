@@ -1,0 +1,88 @@
+types of graph 
+1. NUll graph:
+
+a null garph is defines as null graph which cinsist og no 
+conected graph
+
+2. directed and undirected graph:
+edge oriented directed not oiented undirected
+
+3. connected and disconnected graph
+connected by a path and any vertex can reach another graph it is connected and vice versa is unconnected
+
+
+4. simple graph 
+with no loops and multiple loops undireacted
+
+5. Multi graph
+with loops and multiple graph
+
+6. complete graph (kn)
+every vertex is connected to each other
+
+7. Regular graph
+A graph is called to be a regualr if all the vertices of the garph have the same degree
+all regular graph arent complete garph but all complete grapg are regualr graph
+
+
+8. cycle grapg(cn)
+
+consisting of a single cycle .it is called a cycle garph 
+cycle it needs three vertex with minimum one cycle 
+initial vertex sjhould meet the end vertex
+
+
+9.wheels graph
+    a eheel graph is just like a cycle . with one additional vertes which is 
+    connected to evevry other vertex
+wheels of n vertices are  donoted br Wn
+
+10 bipartitite graph
+
+the vertices are divided into two differernt parts
+
+
+11 complete bipartite graph
+if the vertices are divided into two different parts such that all the vertices of the first part
+are connected to teh vertices of  a second vertex
+
+
+12. weighted graph
+each branch or edge is given a numerical weight .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

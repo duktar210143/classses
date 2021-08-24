@@ -1,0 +1,213 @@
+Algorithm:
+-------
+-the process or set of rules which is written in a native language in order to perform 
+a specific task or computation.
+-like reciepe
+
+
+problem: add two numbers:
+
+
+Algorithm:
+=========
+algorithm:
+-----
+step 1= first take a first value
+step 2= take a second value
+step 3= add the first value and second value of step 1 and step 2 respectively
+step 4= put the output of step 3 in a variabe c
+step 5: display the value of c.
+
+
+Why should we write an algorithm before writing code
+----> If we write an algorithm it is not necessary to know the particular language syntax.
+----> we  can only focus on logic
+
+code:
+programming rules
+Logic
+
+
+write an algorithm to find a factirial num?
+
+now that it 
+
+
+
+
+
+
+
+
+
+
+
+step 1---> fist take a value as input from user
+step 2----> provide a variable with value 1
+step 3---> use for loop 
+step 4---> in step 3 provide a range which ranges from 2 to number 1 less then the input number
+step 5---> inside the block use i+=1
+step 6---> use mul=mul*i
+step 7----> print or display step 6
+
+which algorithm is better?
+
+-We have to analyse all the algorithm
+
+analysis algorithm: time complexity, space complexitit
+
+Time complexity- time taken by an algorithm to perform a pariticular task
+space complexiti- space taken by an algoritm to perform a particualar time
+
+
+
+how to find the time complexity ??
+
+
+why is algorithm written before writing the code?
+
+->to focus on logic
+->not necessary of any particular programming language
+->we cam implement in any programmming language
+
+
+algorithm process:
+
+conditional statement
+Loop 
+Function
+
+
+example
+
+1,2,3,4,5,6,7,8,9,10
+
+num=
+if num is divisible by 3, print Fizz
+if num  is div by 5, print Buzz
+if num is divisible by 3 and 5, print FizzBuzz
+
+--right way
+1. Take a value in num
+2.IF num is exactly divisible by three
+
+
+-Common rules:
+
+- all the key words should be capitalized
+
+
+
+==Algorithm
+1. Flowchart
+2. pseudocode
+3. Code
+
+==Flowchart:
+-----
+- it's pictorial representation or diagrammatical representation of an algorithm.
+Symbols:
+
+oval-->start/end
+rectangle->process
+parallelogram-->input/output
+Diamond-->condition/decision
+line with arrow head -->flow
+round small circle-->connector
+
+
+==Pseudocode
+-similar to the code.
+-There is no rules for writing pseuducode
+-symbols and operator can be use->
+
+
+1. a:=12
+2. b:=15
+3. c=a+b
+4 print the value of c
+
+
+focus on this three things while writing pseudo code
+
+
+num=int(input("enter a number"))
+if num%3 and num%5:
+    print("fizz buzz")
+elif num%3:
+    print("fizz")
+elif num%5:
+    print('BUZZ')
+
+
+pseudo code of above:
+
+num=15
+IF num%3==0 and num%5==0 THEN
+    print("fiz buzz")
+
+ELIF num%3==0 THEN 
+    print("fizz")
+ELSE 
+    print("num")
+
+==Loop:
+FOR, WHILE,DO WHILE(:)=DO
+for i in range(10):
+    print(i)
+
+
+Pseudocode:
+-----
+FOR I from 0 to 9 DO
+    print(i)
+
+
+
+i=0
+while i<5:
+    print(i)
+    i=i+1
+
+I=0
+WHILE I<5 DO
+    PRINT(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

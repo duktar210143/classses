@@ -1,0 +1,17 @@
+predifined algorithm:
+------
+
+l=[10,20,30,40,4,2,8,9,100]
+search item =4
+
+search->linear search,binary search
+
+linear search
+----
+-alternative name of linear search is sequential search.
+
+def linear(list,search_item):
+    for i in range (len(list)):range(9-1=8)#0,1,2,3,4,5,6,7,8
+        if search_item==list[i]:
+            retuen i
+        
